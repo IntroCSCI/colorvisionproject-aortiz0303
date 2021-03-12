@@ -1,7 +1,8 @@
-# Problematic Pallates.
+# Problematic Palattes.
 
 ## Description
 
+palatte analyzer using an svg file type.
 !!!Replace with a description of what your program does!!!
 
 ### v0.2 Updates

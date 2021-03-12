@@ -16,7 +16,15 @@ int main()
   cin >> filename;
 
   reader.open(filename, ios::in);
-  if (reader 
+  if (reader.is_open()) 
+  {
+    while (!reader.eof())
+    {
+      //getline(reader,line);
+      cout << "File has been opened.\n";
+    }
+
+  }
   
 
   return 0;
